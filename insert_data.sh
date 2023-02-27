@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script to insert data from courses.csv and students.csv into students database-FREECODECAMP-Relational Database (Beta)-Learn SQL by Building a Student Database: Part 2
+# Script to insert data from courses.csv and students.csv into students database-FREECODECAMP-Relational Database (Beta)-Learn SQL by Building a Student Database: Part-1 2
 
 PSQL="psql -X --username=freecodecamp --dbname=students --no-align --tuples-only -c"
 echo $($PSQL "TRUNCATE students, majors, courses, majors_courses")
